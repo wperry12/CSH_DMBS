@@ -300,6 +300,8 @@ def updateAdmission(admission_id, admission_type_name, department_name, discharg
         patient_id = cursor.fetchone()
         if not patient_id:
             raise ValueError(f"Patient '{patient_name}' not found.")
+        
+        
 
         # Update the admission record
         query = """
