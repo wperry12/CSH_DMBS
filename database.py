@@ -13,6 +13,8 @@ Connect to the database using the connection string
 '''
 Validate staff based on username and password
 '''
+
+
 def checkLogin(login, password):
 
     return ['jdoe', 'John', 'Doe', 'jdoe@csh.com']
